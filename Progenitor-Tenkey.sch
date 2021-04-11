@@ -2939,47 +2939,41 @@ Text GLabel 3250 1500 2    50   Input ~ 0
 ROW01
 Text GLabel 3250 1600 2    50   Input ~ 0
 ROW02
-Text GLabel 3250 1700 2    50   Input ~ 0
-ROW03
-Text GLabel 3250 1800 2    50   Input ~ 0
-ROW04
-Text GLabel 3250 1900 2    50   Input ~ 0
-ROW05
-Text GLabel 3250 2000 2    50   Input ~ 0
-COL00
-Text GLabel 3250 2100 2    50   Input ~ 0
-COL01
-Text GLabel 3250 2300 2    50   Input ~ 0
-COL02
-Text GLabel 3250 2400 2    50   Input ~ 0
-COL03
-Text GLabel 3250 2600 2    50   Input ~ 0
-COL04
-Text GLabel 3250 2700 2    50   Input ~ 0
-COL05
-Text GLabel 3250 2800 2    50   Input ~ 0
-COL06
-Text GLabel 3250 2900 2    50   Input ~ 0
-COL07
-Text GLabel 3250 3000 2    50   Input ~ 0
-COL08
-Text GLabel 3250 3100 2    50   Input ~ 0
-COL09
-Text GLabel 3250 3200 2    50   Input ~ 0
-COL10
-Text GLabel 3250 3300 2    50   Input ~ 0
-COL11
 Text GLabel 3250 3800 2    50   Input ~ 0
+ROW04
+Text GLabel 3250 2600 2    50   Input ~ 0
+COL00
+Text GLabel 3250 2700 2    50   Input ~ 0
+COL01
+Text GLabel 3250 2900 2    50   Input ~ 0
+COL02
+Text GLabel 3250 3100 2    50   Input ~ 0
+COL03
+Text GLabel 3250 3000 2    50   Input ~ 0
+COL04
+Text GLabel 3250 3200 2    50   Input ~ 0
+COL05
+Text GLabel 3250 3300 2    50   Input ~ 0
+COL06
+Text GLabel 3250 1800 2    50   Input ~ 0
+COL07
+Text GLabel 3250 3600 2    50   Input ~ 0
+COL08
+Text GLabel 3250 4300 2    50   Input ~ 0
+COL09
+Text GLabel 3250 4200 2    50   Input ~ 0
+COL10
+Text GLabel 3250 4100 2    50   Input ~ 0
+COL11
+Text GLabel 3250 4000 2    50   Input ~ 0
 COL12
 Text GLabel 3250 3900 2    50   Input ~ 0
 COL13
-Text GLabel 3250 4000 2    50   Input ~ 0
+Text GLabel 3250 1700 2    50   Input ~ 0
 COL14
-Text GLabel 3250 4100 2    50   Input ~ 0
+Text GLabel 3250 1900 2    50   Input ~ 0
 COL15
-Text GLabel 3250 4200 2    50   Input ~ 0
-COL16
-Text GLabel 3250 4300 2    50   Input ~ 0
+Text GLabel 3250 2300 2    50   Input ~ 0
 COL17
 Wire Wire Line
 	6750 5200 8550 5200
@@ -3401,4 +3395,13 @@ Connection ~ 5400 4550
 Connection ~ 6300 4550
 Wire Wire Line
 	6300 4550 5400 4550
+Wire Wire Line
+	7100 4800 7100 4150
+Connection ~ 7100 4150
+Text GLabel 3250 2100 2    50   Input ~ 0
+ROW03
+Text GLabel 3250 2400 2    50   Input ~ 0
+ROW05
+Text GLabel 3250 2000 2    50   Input ~ 0
+COL16
 $EndSCHEMATC
