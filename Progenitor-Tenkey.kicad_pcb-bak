@@ -12,7 +12,7 @@
   (page A2)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -9875,6 +9875,36 @@
         (xy 380.13239 313.657831) (xy 380.118247 313.671973) (xy 380.13239 313.686116) (xy 379.952785 313.865721) (xy 379.938642 313.851578)
         (xy 379.9245 313.865721) (xy 379.744895 313.686116) (xy 379.759037 313.671973) (xy 379.744895 313.657831) (xy 379.9245 313.478226)
         (xy 379.938642 313.492368) (xy 379.952785 313.478226)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 6074718B) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 156.36875 345.28125) (xy 99.21875 345.28125) (xy 213.51875 230.98125) (xy 270.66875 230.98125)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 156.316144 345.15425) (xy 99.525356 345.15425) (xy 213.571356 231.10825) (xy 270.362144 231.10825)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 6074718F) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 225.425 345.28125) (xy 168.275 345.28125) (xy 282.575 230.98125) (xy 339.725 230.98125)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 225.372394 345.15425) (xy 168.581606 345.15425) (xy 282.627606 231.10825) (xy 339.418394 231.10825)
       )
     )
   )
