@@ -1,2 +1,2 @@
 # Progenitor Tenkey
- A 104 key custom made keyboard project
+ A 96 key custom made keyboard project
