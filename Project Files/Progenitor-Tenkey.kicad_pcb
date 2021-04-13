@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 12)
     (tracks 1392)
     (zones 0)
     (modules 208)
@@ -8192,14 +8192,16 @@
     )
   )
 
-  (gr_line (start 30.95625 192.0875) (end 391.31875 192.0875) (layer Edge.Cuts) (width 0.05) (tstamp 6074E143))
+  (gr_line (start 392.1125 192.0875) (end 392.1125 191.29375) (layer Edge.Cuts) (width 0.05) (tstamp 60795A64))
+  (gr_line (start 30.1625 192.0875) (end 30.1625 191.29375) (layer Edge.Cuts) (width 0.05) (tstamp 60795573))
+  (gr_line (start 30.95625 192.88125) (end 391.31875 192.88125) (layer Edge.Cuts) (width 0.05) (tstamp 6074E143))
   (gr_line (start 30.1625 76.2) (end 30.1625 191.29375) (layer Edge.Cuts) (width 0.05) (tstamp 6074E142))
   (gr_line (start 391.31875 75.40625) (end 30.95625 75.40625) (layer Edge.Cuts) (width 0.05) (tstamp 6074E13F))
   (gr_line (start 392.1125 191.29375) (end 392.1125 76.2) (layer Edge.Cuts) (width 0.05) (tstamp 6074E125))
-  (gr_arc (start 391.31875 191.29375) (end 391.31875 192.0875) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 391.31875 192.0875) (end 391.31875 192.88125) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 391.31875 76.2) (end 392.1125 76.2) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 30.95625 76.2) (end 30.95625 75.40625) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 30.95625 191.29375) (end 30.1625 191.29375) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 30.95625 192.0875) (end 30.1625 192.0875) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_text "Taylor Simpson" (at 320.07175 158.1785) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -9609,11 +9611,6 @@
         (xy 156.36875 345.28125) (xy 99.21875 345.28125) (xy 213.51875 230.98125) (xy 270.66875 230.98125)
       )
     )
-    (filled_polygon
-      (pts
-        (xy 156.316144 345.15425) (xy 99.525356 345.15425) (xy 213.571356 231.10825) (xy 270.362144 231.10825)
-      )
-    )
   )
   (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 607497CA) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
@@ -9622,11 +9619,6 @@
     (polygon
       (pts
         (xy 225.425 345.28125) (xy 168.275 345.28125) (xy 282.575 230.98125) (xy 339.725 230.98125)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 225.372394 345.15425) (xy 168.581606 345.15425) (xy 282.627606 231.10825) (xy 339.418394 231.10825)
       )
     )
   )
